@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/34fb401131.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <title>Forms Example</title>
-<nav>
-        <button class="nav-button">About Us</button>
-        <button class="nav-button">Register</button>
+<nav class="nav">
+       <ul>
+        <li><button class="nav-button">About Us</button></li>
+        <li><button class="nav-button">Register</button></li>
+        </ul>
     </nav>
 </head>
-
+<div class="wrapper">
 <body>
+<div class="form1">
     <form>
+
         <h2>Sign Up</h2>
         <div>
             <input type="email" placeholder="Email"/>
@@ -28,12 +35,14 @@
         <div>
             <input type="password" placeholder="Confirm Password">
         </div><br>
-            <button class="button" type="submit">Submit</button><br>
-            <i class="fab fa-amazon"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fas fa-hashtag"></i>
-            <i class="fab fa-instagram"></i>
+        <button class="button" type="submit">Submit</button><br><br><br>
+        <i class="fab fa-amazon"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fas fa-hashtag"></i>
+        <i class="fab fa-instagram"></i>
     </form>
+</div>
+</div>
 </body>
 </html>
